@@ -1,0 +1,12 @@
+Проход 1:
+TailNum N/A = UNKNOWN
+Остальный N/A - среднее
+Признак сезона
+Игнорируем "UniqueCarrier", "Origin", "Dest", "FlightNum", "TailNum"
+кодируем сезон через OneHot
+Проход 2:
+Добавляем среднее от target по UniqueCarrier, Origin, Dest
+Проход 3:
+Добавляем Speed как среднее от target по TailNum
+Проход 4:
+Добавляем признак IsHoliday, 1 елси DayOfWeek == (1 || 7) (не работает)
