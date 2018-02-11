@@ -9,4 +9,6 @@ TailNum N/A = UNKNOWN
 Проход 3:
 Добавляем Speed как среднее от target по TailNum
 Проход 4:
-Добавляем признак IsHoliday, 1 елси DayOfWeek == (1 || 7) (не работает)
+Добавляем признак IsHoliday, 1 елси DayOfWeek == (1 || 7) (Не работает)
+
+OneHot месяца и дня недели не работает
